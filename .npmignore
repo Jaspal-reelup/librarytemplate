@@ -1,0 +1,7 @@
+node_modules
+.storybook
+*.config.js
+*.log
+__tests__
+__fixtures__
+__mocks__
