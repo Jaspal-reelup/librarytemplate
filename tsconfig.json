@@ -8,7 +8,11 @@
     "module": "esnext",
     "moduleResolution": "node",
     "strict": true,
-    "target": "esnext"
+    "target": "esnext",
+    "types": ["react", "react-native", "react-native-web"], // Add react-native-web here
+    "allowJs": true,  // Allow JS files to be part of the compilation
+    "skipLibCheck": true,  // Skip type checking of declaration files
+    "noEmit": true  // We don't want TypeScript to emit any JS files (Babel will do that)
   },
   "extends": "expo/tsconfig.base"
 }
